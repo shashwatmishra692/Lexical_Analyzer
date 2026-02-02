@@ -70,11 +70,11 @@ Token Type	                      Description
 
 KEYWORD	                          C language keywords (int, float, return, etc.)
 IDENTIFIER	                      Variable and function names
-OPERATOR	                        Arithmetic and logical operators
-SPECIAL_CHARACTER	                Symbols like { } ( ) [ ] , ;
-CONSTANT	                        Numeric constants
+OPERATOR	                      Arithmetic and logical operators
+SPECIAL_CHARACTER	              Symbols like { } ( ) [ ] , ;
+CONSTANT	                      Numeric constants
 LITERAL	                          String literals
-PREPROCESSOR	                    Preprocessor directives (#include, #define)
+PREPROCESSOR	                  Preprocessor directives (#include, #define)
 COMMENTED_LINE	                  Single-line (//) and multi-line (/* */) comments
 UNKNOWN	                          End of file or invalid token
 
@@ -116,3 +116,4 @@ Type: SPECIAL CHARACTER    ------> Token: }                      line 4
 Preprocessor directives
 
 Comments (single-line and multi-line)
+
